@@ -355,4 +355,4 @@ database <- AddSubjects(database, subjects.merged)
 # Creates a second, independent tidy data set with the average of each variable
 # for each activity and each subject
 reshaped.database <- ReshapeDataset(database)
-write.csv(reshaped.database, file = 'tidyDataset.csv', row.names = FALSE)
+write.csv(reshaped.database, file = 'tidyDataset.txt', row.names = FALSE)
